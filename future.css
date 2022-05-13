@@ -1,0 +1,32 @@
+.future-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    width: 500px;
+}
+
+.future-header input{
+    position: relative;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    display: block;
+    margin: 0;
+    color: purple;
+
+    width: 400px;
+}
+
+.future-header input::placeholder{
+    color: purple;
+}
+
+.future-body{
+    border: solid 5px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.future-body li{
+    cursor: pointer;
+}

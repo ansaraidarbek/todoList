@@ -1,0 +1,44 @@
+.current-form{
+    background-color: white;
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+.current-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+
+.current-header button{
+    height: 50px;
+    width: 50px;
+
+    margin: 25px;
+}
+
+.current-header input{
+    position: relative;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    display: block;
+    margin: 0;
+    color: purple;
+
+    width: 400px;
+}
+
+.current-header input::placeholder{
+    color: purple;
+}
+
+.current-body{
+    border: solid 3px;
+
+    max-height: 300px;
+    width:500px;
+
+
+}
+

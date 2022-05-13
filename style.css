@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin:0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:100vw;
+    height: 100vh;
+}
+
+.top-panel{
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB356B, #BD3F32);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB356B, #BD3F32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 200px;
+    width: 100vw;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-buttons{
+
+    text-align: center;
+
+    margin: 0;
+    padding: 1rem; 
+}
+
+.top-buttons button{
+
+    font-size: 18px;
+    width: 150px;
+    color: black;
+
+    background-color: red;
+    border-radius:30px;
+
+    cursor: pointer;
+}
+
+.top-buttons button:hover{
+    
+    font-size: 28px;
+    width: 150px;
+
+    color:white;
+}
+
+.top-buttons button:disabled{
+    font-size: 28px;
+    width: 150px;
+    border: solid black 2px;
+    box-shadow: 2px 2px 60% black;
+    color:white;
+
+    cursor:auto;
+}
+
+.top-panel span{
+
+    position:absolute;
+    bottom: 20px;
+
+
+    display: block;
+
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 94px;
+
+    line-height:100%;
+
+}
+
+.change{
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+li{
+    background-color: #C4C4C4;
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+}
+
+ul{
+    
+    list-style-type: none;
+    overflow: auto;
+
+    margin: 1rem 1rem 0.3rem 1rem;
+    padding: 0;
+
+    background-color: white;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem;
+}

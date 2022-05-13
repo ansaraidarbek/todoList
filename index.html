@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint"
+        content="width=device-width, initial-scale=1.0">
+        <title>ToDo App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="completed.css" />
+        <link rel="stylesheet" href="current.css" />
+        <link rel="stylesheet" href="future.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="top-panel">
+            <div class="top-buttons" id="buttons">
+                <button id="completed" type ="button" onclick="clickButton(this.id)">completed</button>
+                <button id="current" type ="button" onclick="clickButton(this.id)" >current</button>
+                <button id="future" type ="button" onclick="clickButton(this.id)">future</button>
+            </div>
+            <span>ToDo</span>
+        </div>
+        <form>
+            <p class="completed-topPanel">
+                Completed
+            </p>
+            <div class="completed-body">
+                <span>2021-08-21</span>
+                <ul>
+                    <li>some</li>
+                    <li class="change">nice</li>
+                </ul>
+            </div>
+            <div class="completed-bottomPanel">
+                <input  type="radio" name="radio" value="0" checked>
+                <input  type="radio" name="radio" value="1">
+                <input  type="radio" name="radio" value="2">
+                <input  type="radio" name="radio" value="3">
+                <input  type="radio" name="radio" value="4">
+            </div>
+
+        </form>
+    </body>
+</html>
